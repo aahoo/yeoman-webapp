@@ -2,10 +2,9 @@
 
 ## Test Drive
 1. run: `docker run -it --rm -p 9000:9000 aahoo/yeoman-webapp`
-2. `mkdir -p my-project && cd $_`
-3. `yo webappp`
-4. `gulp serve`
-5. open browser > "virtual machine IP":9000 (e.g. http://192.168.99.100:9000/)
+2. `yo webappp`
+3. `gulp serve`
+4. open browser > "virtual machine IP":9000 (e.g. http://192.168.99.100:9000/)
 
 ## Regular Use
 Mount a host directory to the container
