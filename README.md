@@ -13,7 +13,9 @@ Mount a host directory to the container
 ### Need to do only for the first run
 1. `mkdir -p my-project && cd $_`
 2. `docker run -it -p 9000:9000 -v $(pwd):/home/yeoman/my-project --name yo  aahoo/yeoman-webapp`
+
 > In windows, you may have to change `$(pwd)` to `/$(pwd)`
+
 3. `yo webapp`
 4. `gulp serve`
 5. open browser > "virtual machine IP":9000 (e.g. http://192.168.99.100:9000/)
