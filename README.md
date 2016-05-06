@@ -22,7 +22,7 @@ Mount a host directory to the container
 
 ### Need to do for the following runs
 0. `cd my-project`
-1. `docker start -i yo`
+1. `docker start -i wa`
 2. `gulp serve`
 3. open browser > "virtual machine IP":9000 (e.g. http://192.168.99.100:9000/)
 
