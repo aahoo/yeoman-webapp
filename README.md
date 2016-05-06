@@ -12,7 +12,7 @@ Mount a host directory to the container
 
 ### Need to do only for the first run
 1. `mkdir -p my-project && cd $_`
-2. `docker run -it -p 9000:9000 -v $(pwd):/home/yeoman/my-project --name wp  aahoo/yeoman-webapp`
+2. `docker run -it -p 9000:9000 -v $(pwd):/home/yeoman/my-project --name wa  aahoo/yeoman-webapp`
 
 > In windows, you may have to change `$(pwd)` to `/$(pwd)`
 
